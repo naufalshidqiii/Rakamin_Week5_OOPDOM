@@ -13,6 +13,11 @@
     />
 
     <title>Formulir Pendaftaran</title>
+    <style>
+      section {
+        padding: 60px;
+      }
+    </style>
   </head>
   <body>
     <!-- Tabs -->
@@ -28,36 +33,45 @@
       </button>
     </div>
     <!-- Tabel Pendaftar -->
-    <div id="List Pendaftar" class="tabcontent">
-      <table>
-        <tr>
-          <th>Nama Pendaftar</th>
-          <th>Umur</th>
-          <th>Uang Sangu</th>
-        </tr>
-        <tr>
-          <td>slamet harianto</td>
-          <td>55 tahun</td>
-          <td>Rp1000000</td>
-        </tr>
-      </table>
-    </div>
-    <div id="Formulir Pendaftaran" class="tabcontent">
-      <form>
-        <label for="nama">Nama Pendaftar:</label><br />
-        <input type="text" id="nama" name="nama" value="Andi" />
-        <br />
-        <label for="umur">Umur Pendaftar:</label><br />
-        <input type="text" id="umur" name="umur" value="45" /><br />
-        <label for="uangSangu">Uang Sangu:</label><br />
-        <input
-          type="text"
-          id="uangSangu"
-          name="uangSangu"
-          value="Rp1.000.000"
-        />
-        <input type="submit" value="Simpan" />
-      </form>
-    </div>
+    <section>
+      <div id="List Pendaftar" class="tabcontent">
+        <style>
+          table {
+            border: 1px black;
+          }
+        </style>
+        <table>
+          <tr>
+            <th>Nama Pendaftar</th>
+            <th>Umur</th>
+            <th>Uang Sangu</th>
+          </tr>
+          <tr>
+            <td>slamet harianto</td>
+            <td>55 tahun</td>
+            <td>Rp1000000</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section>
+      <div id="Formulir Pendaftaran" class="tabcontent">
+        <form>
+          <label for="nama">Nama Pendaftar:</label><br />
+          <input type="text" id="nama" name="nama" value="Andi" />
+          <br />
+          <label for="umur">Umur Pendaftar:</label><br />
+          <input type="text" id="umur" name="umur" value="45" /><br />
+          <label for="uangSangu">Uang Sangu:</label><br />
+          <input
+            type="text"
+            id="uangSangu"
+            name="uangSangu"
+            value="Rp1.000.000"
+          />
+          <input type="submit" value="Simpan" />
+        </form>
+      </div>
+    </section>
   </body>
 </html>
